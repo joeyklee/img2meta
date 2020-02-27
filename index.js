@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const parser = require('exif-parser');
 const turf = require('@turf/helpers');
-const dataDirectory = process.argv[2] || __dirname + '/example';
+const dataDirectory = path.normalize(process.argv[2]) || __dirname + '/example';
 const withGeoJSON = process.argv[3] || false;
 
 // call the function
