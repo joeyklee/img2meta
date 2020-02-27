@@ -33,3 +33,8 @@ The script can be run:
 ```
 * `<absolute path to folder>`: the folder that contains your images
 * `<true|false>`: use `true` if you want to export a geojson point feature collection or `false` if you just want the metadata.
+
+## Acknowledgements
+
+* [exif-parser](https://www.npmjs.com/package/exif-parser)
+* [Turf.js](https://turfjs.org/docs/)
