@@ -1,0 +1,17 @@
+{
+  "name": "img2meta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/helpers": "^6.1.4",
+    "exif-parser": "^0.1.12"
+  }
+}
